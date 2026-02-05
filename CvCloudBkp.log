@@ -1,0 +1,149 @@
+**************************************************************************
+* Machine    : BackupGateway-jc-bgw:11.0.1.74 (11.0.1.74) (Instance001)  *
+* IP Addrs   : 11.0.1.74                                                 *
+* Module     : CvCloudBkp                                                *
+* Commserver : cms01120c1az01:cms01120c1az01.cvmscloud.commvault.com     *
+* Version    : 11.42.60                                                  *
+* Date       : 2026/01/14 (GMT GMT+00:00)                                *
+* OS Type    : Linux 6.12.0-105.51.5.el9uek.x86_64                       *
+**************************************************************************
+263020 4036c 01/14 14:19:10 ### skipFS::SetFSCacheEnabled(542) - FSType cache is enabled
+263020 4036c 01/14 14:19:10 ### EvEvent::SetupConnectionWithCVD() - Loading library under Base32
+263020 4036c 01/14 14:19:10 ### EvEvent::SetupConnectionWithCVD() - Loading library under Base64
+263020 4036c 01/14 14:19:10 7839 DistributedIDA::CMaster::InitializeEvEvent(379) - =======================
+263020 4036c 01/14 14:19:10 7839 DistributedIDA::CMaster::InitializeEvEvent(380) - STARTING DistributedIDA
+263020 4036c 01/14 14:19:10 7839 DistributedIDA::CMaster::InitializeEvEvent(381) - -----------------------
+263020 4036c 01/14 14:19:10 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(68) - +++
+263020 4036c 01/14 14:19:10 7839 CvNetworkPool::initNetworkPool() - Creating the control thread
+263020 4036d 01/14 14:19:10 7839 thNetworkControllerThread() - Controller thread started
+263020 4036c 01/14 14:19:11 7839 CvClntCert::loadLib() - Successfully loaded /opt/commvault/Base/libCvClntCertImpl.so
+263020 4036c 01/14 14:19:11 7839 Cvcl::init() - CVCL: Running in FIPS Mode
+263020 4036c 01/14 14:19:12 7839 ::GetSubclientDir() - The subclient directory is [/var/commvaultdata/jobResults/2/360].
+263020 4036c 01/14 14:19:12 7839 CvUCS::init_static() - Native charset="UTF-8".
+263020 4036c 01/14 14:19:12 7839 CvUCS::init_static() - Great! This system is using ISO/IEC 10646 character set for wchar_t. We will not be using iconv() API and will be converting between MBE and UTF/UCS using C MBR functions.
+263020 4036c 01/14 14:19:12 7839 CvUCS::init_static() - MBE happens to be UTF-8. Will use strcpy for MBE<=>UTF-8 conversion.
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(90) - UseIncrementalImageMode=0
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(126) - Reference time = 0
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(157) - numWorkers is not set in argument, using the default value= 2
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(184) - earlyStubBackup=0
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(188) - ScanError=0
+263020 4036c 01/14 14:19:12 7839 ::GetSubclientDir() - The subclient directory is [/var/commvaultdata/jobResults/2/360].
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::readResgistryParams(276) - +++
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::readResgistryParams(276) - --- 0:00.000020
+263020 4036c 01/14 14:19:12 7839 initializeAdditionalSettings() - Initialize additional settings requested for entity id [360] entity type [7]
+263020 4036c 01/14 14:19:12 7839 initializeAdditionalSettings() - No additional settings set for entity id [360] entity type [7].
+263020 4036c 01/14 14:19:12 7839 CVDC_FileSystem::CFSClientConfig::parseArguments(68) - --- 0:02.005435
+263020 4036c 01/14 14:19:12 7839 initializeAdditionalSettings() - Initialize additional settings requested for entity id [360] entity type [7]
+263020 4036c 01/14 14:19:12 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::Prepare(3092) - Failed to initialize additional settings for subclient Id [360]. Error [0xEDDD0004:{initializeAdditionalSettings(42)/Int.4.0x4-Additional settings already initialized.}]
+263020 4036c 01/14 14:19:12 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::PrepareInternal(3137) - Scan complete hook file path for older single node backups willbe located at [/var/commvaultdata/jobResults/CV_JobResults/iDataAgent/CvCloudBkp/2/360/7839/ScanCompleteHookFile_7839]
+263020 4036c 01/14 14:19:12 7839 DistributedIDA::CMaster::registerWithJM(1082) - Use jm control role [1]
+263020 4036c 01/14 14:19:13 7839 DistributedIDA::CMaster::initialize(513) - Threshold for stream failures per node is [3]
+263020 4036c 01/14 14:19:14 7839 CloudAppsInstance::getCloudAppsAccessNodes() - ClientId[184] StreamCount[-1]
+263020 4036c 01/14 14:19:14 7839 DistributedIDA::CMaster::HandleScaleProfileNode(651) - No scale profile client found in the node list.
+263020 4036c 01/14 14:19:15 7839 CVDC_FileSystem::CFSClientConfig::CalculateStreams(305) - Client app type 0
+263020 4036c 01/14 14:19:15 7839 AutoStreamHandler::GetMaxNumberOfStreamsInternal(41) - Backup nodes: 1, Optimal number of Data Readers: 4
+263020 4036c 01/14 14:19:15 7839 CVDC_FileSystem::CFSClientConfig::CalculateStreams(339) - m_iSubClientNumberOfStreams[4]
+263020 4036c 01/14 14:19:15 7839 DistributedIDA::ICoordinator::UpdateSubclientDirectory(1316) - Subclient directory distribution is not enabled.
+263020 4036c 01/14 14:19:15 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::InitializeInternal(190) - +++
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::ExtractCatalogPhase(2463) - Catalog detected [FALSE]
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::ExtractAnalyticsJob(2574) - this is Cloud backup job [COntent indexing - disabled]
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::ExtractBkpLevel(153) - Backup Type[FULL]
+263020 4036c 01/14 14:19:15 7839 initializeAdditionalSettings() - Initialize additional settings requested for entity id [360] entity type [7]
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::Initialize(2075) - Failed to initialize additional settings for subclient Id [360]. Error [0xEDDD0004:{initializeAdditionalSettings(42)/Int.4.0x4-Additional settings already initialized.}]
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::ExtractJobId(230) - LastFullJobId[0] LastIncrJobId[0] PreviousJobId[0]
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(584) - Apptype[134]
+263020 4036c 01/14 14:19:15 7839 CloudConnecter::FetchDataFromCM(81) - Credential Association ID[160]
+263020 4036c 01/14 14:19:15 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(631) - Pseudoclient: JC-OCI-ObjectStorage2
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(673) - SubclientName [default] SubclientGUID [14A2D8E6-7462-42E3-A86C-7315F10695BD] SubclientStreamCount [0]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(679) - LastSuccessfulJobId[]
+263020 4036c 01/14 14:19:16 7839 AutoStreamHandler::GetMaxNumberOfStreamsInternal(47) - Optimal number of Data Readers: 4
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(718) - m_bIsACLCollectionEnabled[TRUE]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(723) - m_bIsSubClientSP23AndAbove[TRUE]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(764) - Reference Time[0]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::FetchAndStoreApplicationDetailsFromCS(765) - Reference Time Associated with FULL[0] INCR[0]
+263020 4036c 01/14 14:19:16 7839 GranularRegistry::ReadSubclientSpecificSetting(4414) - ReadSubclientSpecificSetting for regName[sFlatDiffConfig] subclientId[360]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::DetermineScanType(893) - m_ScanTypeJobListXml[]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::DetermineScanType(986) - Scan type is [-1], Converting Scan type to FLAT_MODE
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::DetermineScanType(1005) - Scan type is [2] [FLAT_MODE]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::DetermineScanType(1040) - Event Based Scan is not enabled
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::DetermineScanType(1094) - Metadata Table Scan is not enabled
+263020 4036c 01/14 14:19:16 7839 GranularRegistry::ReadSubclientSpecificSetting(4414) - ReadSubclientSpecificSetting for regName[sFlatModeScan] subclientId[360]
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::DetermineScanType(1265) - Flat Mode Scan is ENABLED
+263020 4036c 01/14 14:19:16 7839 CVCloudApp::ValidateTheScanType(3341) - For FULL job, scan type transition validation is skipped, but XML will still be parsed.
+263020 4036c 01/14 14:19:16 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::InitializeInternal(254) - JR path on this node[/var/commvaultdata/jobResults/2/360]
+263020 4036c 01/14 14:19:16 #### Temp Folder = /var/commvaultdata/jobResults
+263020 4036c 01/14 14:19:16 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::CheckIfJRForPreviousJobIsPresent(2428) - Previous job id is zero. Probably the first backup.
+263020 4036c 01/14 14:19:16 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(629) - Create folder [/var/commvaultdata/jobResults/2/360/0]
+263020 4036c 01/14 14:19:16 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(645) - File[/StartTime.cvf] does not exist
+263020 4036c 01/14 14:19:16 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(653) - File[/DirChange.cvf] does not exist
+263020 4036c 01/14 14:19:16 7839 CCloudStorageScan::HandleClockSkew(200) - Clock Skew on Proxy[0]
+263020 4036c 01/14 14:19:16 7839 CCloudStorageScan::HandleClockSkew(202) - Time on Cloud[1768400356] Time On Proxy[1768400356]
+263020 4036c 01/14 14:19:17 7839 CCloudStorageScan::HandleClockSkew(207) - One second delay introduced
+263020 4036c 01/14 14:19:17 7839 CCloudStorageAppDistributed::CleanUpJR(4098) - CleanUp JR [/var/commvaultdata/jobResults/2/360]
+263020 4036c 01/14 14:19:17 7839 CVCloudScan::DeleteOldJobSubClientDir(259) - Finding all folders under[/var/commvaultdata/jobResults/2/360]
+263020 4036c 01/14 14:19:17 7839 CVCloudScan::DeleteOldJobSubClientDir(284) - Found [7839]
+263020 4036c 01/14 14:19:17 7839 CVCloudScan::DeleteOldJobSubClientDir(284) - Found [0]
+263020 4036c 01/14 14:19:17 7839 CVCloudScan::DeleteOldJobSubClientDir(379) - RemoveFolder [/var/commvaultdata/jobResults/2/360/0]
+263020 4036c 01/14 14:19:17 7839 CCloudStorageAppDistributed::MakeCopyOfJobStartTime(4149) - Copying TimeFile[/var/commvaultdata/jobResults/2/360/7839/StartTime.cvf] to TimeFileCopy[/var/commvaultdata/jobResults/2/360/StartTime.cvf]
+263020 4036c 01/14 14:19:17 7839 CScanJob::ProcessCommandLine(151) - DistributedPkgType Cloud
+263020 4036c 01/14 14:19:18 7839 CScanJobCloud::ProcessCommandLine(204) - Reference Time[0]
+263020 4036c 01/14 14:19:18 7839 CScanJobCloud::ProcessCommandLine(229) - === JOB REFERENCE TIME is Clear ===
+263020 4036c 01/14 14:19:18 7839 CCloudScan::Process(146) - Scan Start Time is 2026/01/14 14:19:18.462797Z||1768400358
+263020 4036c 01/14 14:19:18 7839 GranularRegistry::ReadSubclientSpecificSetting(4414) - ReadSubclientSpecificSetting for regName[nMaxScanThreads] subclientId[360]
+263020 4036c 01/14 14:19:18 7839 CScanJobCloud::Configure(326) -  Backuptype [1]
+263020 4036c 01/14 14:19:18 7839 ::GetSubclientDir() - The subclient directory is [/var/commvaultdata/jobResults/2/360].
+263020 4036c 01/14 14:19:18 7839 CScanJob::Configure(411) - ResultPathJob=/var/commvaultdata/jobResults/CV_JobResults/2/0/7839
+263020 4036c 01/14 14:19:18 7839 CScanJob::Configure(412) - ResultPathSubclient=/var/commvaultdata/jobResults/2/360
+263020 4036c 01/14 14:19:18 7839 initializeAdditionalSettings() - Initialize additional settings requested for entity id [360] entity type [7]
+263020 4036c 01/14 14:19:18 7839 CScannerOptions::LoadConfiguration(232) - TrueUpSkipped [No] TrueUpEnabled[No] TrueUpForced [No] DaysToRunTrueup[0] JobsToRunTrueup[0] TrueUpSkipAfterSynth[No] SkipDC[No]
+263020 4036c 01/14 14:19:18 7839 AutoStreamHandler::GetMaxNumberOfStreamsInternal(47) - Optimal number of Data Readers: 4
+263020 4036c 01/14 14:19:18 7839 CScannerOptions::LoadScanType(1129) - UseDataClassification=0
+263020 4036c 01/14 14:19:18 7839 CScannerOptions::LoadConfiguration(305) - Client ID - 192
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(450) - Expand symbolic links path is disabled.
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::CheckAndSetFollowSymlinkOption(1333) - Follow symbolic links path is disabled
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(483) - Apple Double Support: Disabled
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(495) - Cluster file system filter enabled
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(511) - Will backup sub-mounts under skipped file systems
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(520) - SkipNonLocalMountDetails: no
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(546) - ClientBaseVersion [11]
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(670) - EnableFolderLevelMultithread : NO
+263020 4036c 01/14 14:19:20 7839 CScannerOptions::LoadConfiguration(748) - Setting clientid [192] in registry
+263020 4036c 01/14 14:19:20 7839 CUnixScannerOptions::LoadConfiguration(237) - HardLink Backup And Restore Disabled (apptype=134)
+263020 4036c 01/14 14:19:20 7839 CCloudPostProcessingOptions::LoadConfiguration(233) - Registry For_Multiple_Reads_On_Disk_Collect_Split_Multiplication_Factor=4
+263020 4036c 01/14 14:19:20 7839 CScanJob::Configure_ConfigureReportingThread(544) - Failed to get the job update interval from the GlobalParam table. Setting it to the default value
+263020 4036c 01/14 14:19:20 7839 CScanJob::Configure_AddTasks_MemoryManagementTask(689) - Additional setting [bEnableMemoryManagementForFileScan] is not set. Memory management task will not be added
+263020 4036c 01/14 14:19:20 7839 CScanJobCloud::Configure_JobReferenceTime(655) - Full backup will not query for new subclient content
+263020 40374 01/14 14:19:20 7839 CReportingThread::Run(23) - +++
+263020 4036c 01/14 14:19:20 7839 CloudStorageContentManager::CreateContentManager(110) - Unknown Cloud type
+263020 4036c 01/14 14:19:20 7839 CScanJob::Process(272) - Error=0x80070306:{CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}
+263020 4036c 01/14 14:19:20 7839 CScanJobCloud::Cleanup(1957) - +++
+263020 4036c 01/14 14:19:20 7839 CScanVolumePerformanceCounter::LogAllThreadPerformanceCounters(336) - ----------------- Total Volume Time Taken ------------------
+263020 4036c 01/14 14:19:20 7839 CScanJobCloud::Cleanup(1957) - --- 0:00.000058
+263020 40374 01/14 14:19:20 7839 CReportingThread::OnStop(57) - Stopping Reporting Thread. Final Reporting all tasks
+263020 40374 01/14 14:19:20 7839 CFileScanJMProgressReportTask::Execute(72) - Total Scanned items count did not change in last [0] seconds. Current Count: Scanned Folders [0], Scanned Files [0], Total Scanned [0]
+263020 40374 01/14 14:19:20 7839 CScanVolumePerformanceCounter::LogAllThreadPerformanceCounters(336) - ----------------- Total Volume Time Taken ------------------
+263020 40374 01/14 14:19:20 7839 IReportTask::Finalize(47) - [JM Progress Report Task] Time Counter: 0:00.000012, 1 samples, 0:00.000012 average, 100/second .
+263020 40374 01/14 14:19:20 7839 IReportTask::Finalize(47) - [Performance Counters Logging Task] Time Counter: 0:00.000048, 1 samples, 0:00.000048 average, 100/second .
+263020 40374 01/14 14:19:20 7839 CReportingThread::Run(23) - --- 0:00.001834
+263020 4036c 01/14 14:19:20 7839 CCloudScan::Process(158) - Process (1)
+263020 4036c 01/14 14:19:20 7839 CCloudScan::Process(171) - HasSCContentFailed[FALSE]
+263020 4036c 01/14 14:19:20 7839 CCloudScan::Process(227) - Phase failure reported : 0x80070306:{CScanJob::Process(293)} + {CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}
+263020 4036c 01/14 14:19:20 7839 CCloudStorageScanDistributed::HierarchicalScan(1235) - CloudScan failed, error=0x80070306:{CCloudScan::Process(228)/Scan failed} + {CScanJob::Process(293)} + {CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}
+263020 4036c 01/14 14:19:21 7839 BKP CALLED COMPLETE (PHASE Status::FAIL), 7839. Token [7839:4:1:0:0:15098]
+263020 4036c 01/14 14:19:23 7839 BKP CALLED COMPLETE (PHASE Status::FAIL), 7839. Token [7839:4:1:0:0:15098]
+263020 4036c 01/14 14:19:23 7839 JM Client  JobClient: Jobmanager replied with an error code of [3] in the acknowledgement message. Error [Invalid token [7839:4:1:0:0:15098] received for the job complete message. Error:[The job token is for an older attempt than that of the job. AttemptNo in client token [1]. Current AttemptNo of job [2].].]
+263020 4036c 01/14 14:19:23 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(681) - Scan failed. Error[0x80070306:{CCloudStorageScan::ScanDataAndGenerateCollectFiles(891)} + {CCloudStorageScanDistributed::HierarchicalScan(1237)} + {CCloudScan::Process(228)/Scan failed} + {CScanJob::Process(293)} + {CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}]
+263020 4036c 01/14 14:19:23 7839 CVCloudApp::GenerateResultsFile(2962) - Unable to open scan failures file [/var/commvaultdata/jobResults/2/360/scan_Failures.cvf], Failed items Results file will not be created.
+263020 4036c 01/14 14:19:23 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::InitializeInternal(190) - --- 0:08.717561
+263020 4036c 01/14 14:19:23 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::initialize(167) - InitializeInternal failed. Error[0x80070306:{CVDC_Cloud::CCloudStorageBackupCoordinator::InitializeInternal(305)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(687)} + {CCloudStorageScan::ScanDataAndGenerateCollectFiles(891)} + {CCloudStorageScanDistributed::HierarchicalScan(1237)} + {CCloudScan::Process(228)/Scan failed} + {CScanJob::Process(293)} + {CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}]
+263020 4036c 01/14 14:19:23 7839 DistributedIDA::CMaster::handleEventError(1390) - 0x80070306:{DistributedIDA::CMaster::initialize(557)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::initialize(182)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::InitializeInternal(305)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(687)} + {CCloudStorageScan::ScanDataAndGenerateCollectFiles(891)} + {CCloudStorageScanDistributed::HierarchicalScan(1237)} + {CCloudScan::Process(228)/Scan failed} + {CScanJob::Process(293)} + {CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}
+263020 4036c 01/14 14:19:23 7839 DistributedIDA::CMaster::endPhaseTasks(4467) - Make sure all streams are released now.
+263020 4036c 01/14 14:19:23 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::OnCompleteInternal(1108) - +++
+263020 4036c 01/14 14:19:23 7839 CVDC_Cloud::CCloudStorageBackupCoordinator::OnCompleteInternal(1108) - --- 0:00.000011
+263020 4036c 01/14 14:19:23 7839 DistributedIDA::CMaster::endPhaseTasks(4497) - m_jsStatus:2 m_jsStatusFor:1 m_jsPendingCause:4
+263020 4036c 01/14 14:19:23 7839 BKP CALLED COMPLETE (PHASE Status::FAIL), 7839. Token [7839:4:1:0:0:15098]
+263020 4036c 01/14 14:19:25 7839 JM Client  JobClient: Jobmanager replied with an error code of [3] in the acknowledgement message. Error [Invalid token [7839:4:1:0:0:15098] received for the job complete message. Error:[The job token is for an older attempt than that of the job. AttemptNo in client token [1]. Current AttemptNo of job [2].].]
+263020 4036c 01/14 14:19:25 7839 main(200) - 0x80070306:{DistributedIDA::CMaster::initialize(557)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::initialize(182)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::InitializeInternal(305)} + {CVDC_Cloud::CCloudStorageBackupCoordinator::PerformScan(687)} + {CCloudStorageScan::ScanDataAndGenerateCollectFiles(891)} + {CCloudStorageScanDistributed::HierarchicalScan(1237)} + {CCloudScan::Process(228)/Scan failed} + {CScanJob::Process(293)} + {CScanJob::Process(241)/Failed to configure scan job; terminating, ScanJob=ScanJob/CloudScan} + {CScanJobCloud::Configure(342)} + {CScanJobCloud::Configure_HybridScan(380)} + {CloudStorageContentManager::CreateContentManager(111)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Unknown Cloud type}
+263020 4036c 01/14 14:19:25 7839 main(208) - ---------------------
+263020 4036c 01/14 14:19:25 7839 main(209) - ENDING DistributedIDA
+263020 4036c 01/14 14:19:25 7839 main(210) - =====================
